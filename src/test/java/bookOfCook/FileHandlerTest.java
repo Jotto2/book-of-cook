@@ -32,5 +32,4 @@ public class FileHandlerTest {
 		assertEquals(loadedCookbook.getRecipes().get(0).getSteps(), cookbook.getRecipes().get(0).getSteps());
 		assertEquals(loadedCookbook.getRecipes().get(0).getCategories().size(), cookbook.getRecipes().get(0).getCategories().size());
 	}
-
 }
